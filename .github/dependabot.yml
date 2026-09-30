@@ -1,0 +1,8 @@
+# Dependabot: автоматические PR с обновлениями зависимостей.
+# Когда в проекте появятся npm / pip и т.п., добавьте сюда соответствующий ecosystem.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

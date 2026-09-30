@@ -1,0 +1,44 @@
+# --- Секреты и ключи: никогда не коммитить ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+secrets.*
+credentials*.json
+service-account*.json
+.npmrc
+.pypirc
+.netrc
+
+# --- Зависимости и сборка ---
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Логи и временные файлы ---
+*.log
+*.tmp
+*.sqlite
+*.db
+
+# --- IDE и ОС ---
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# --- Локальные настройки Claude Code ---
+.claude/settings.local.json
